@@ -1,0 +1,12 @@
+# macOS custom folder attributes
+.DS_Store
+
+# Development files
+build
+_dev
+
+# NPM
+node_modules
+
+# Next.js
+.next
