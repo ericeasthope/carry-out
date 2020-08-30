@@ -4,8 +4,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
+        test: /\.(js|jsx)$/i,
+        exclude: /node_modules|public/,
         use: ["babel-loader"],
       },
     ],
@@ -15,7 +15,7 @@ module.exports = {
   },
   output: {
     libraryTarget: "commonjs",
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "public"),
     filename: "component-name.js",
   },
   externals: {
