@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "next dev",
-    "build": "webpack"
+    "build": "next build",
+    "pack": "webpack"
   },
   "private": true,
   "devDependencies": {

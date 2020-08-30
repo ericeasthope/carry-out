@@ -8,5 +8,6 @@ _dev
 # NPM
 node_modules
 
-# Next.js
+# Next.js / Vercel
 .next
+.vercel
