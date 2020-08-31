@@ -1,7 +1,13 @@
 {
+  "name": "carry-out",
+  "author": "Eric Easthope, eric.easthope@me.com, @ericeasthope",
+  "license": "MIT",
+  "version": "0.0.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
+    "export": "next export",
     "webpack": "webpack"
   },
   "private": true,
@@ -12,13 +18,13 @@
     "babel-loader": "^8.1.0",
     "next": "^9.5.2",
     "raw-loader": "^4.0.1",
-    "react": "^16.8",
+    "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
   "peerDependencies": {
-    "react": "^16.8"
+    "react": "^16.13.1"
   },
   "dependencies": {}
 }
